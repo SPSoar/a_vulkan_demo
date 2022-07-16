@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Factory">
+      <UniqueIdentifier>{084efa99-7e3a-4f6f-a289-2b92378609c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interface">
+      <UniqueIdentifier>{813f2856-391a-4833-829a-9093cdc36769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lounge">
+      <UniqueIdentifier>{42f5e59e-4961-47da-9de3-d1192b5317ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Backend">
+      <UniqueIdentifier>{e0ef7250-f740-4d5c-a921-26770f916012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Backend\VulkanDriver">
+      <UniqueIdentifier>{9b7bef62-03cb-4763-9400-e4b000bdf7c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource">
+      <UniqueIdentifier>{c17aa0d5-7d8b-4107-a556-299d489dc116}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SPMangaStudio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SPMangaka.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SPNeMu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lounge\SPColoringAssistant.cpp">
+      <Filter>Source Files\Lounge</Filter>
+    </ClCompile>
+    <ClCompile Include="Lounge\SPInkingAssistant.cpp">
+      <Filter>Source Files\Lounge</Filter>
+    </ClCompile>
+    <ClCompile Include="Lounge\SPPostProcessingAssistant.cpp">
+      <Filter>Source Files\Lounge</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\VulkanDriver\SPDrawingPadVulkan.cpp">
+      <Filter>Source Files\Backend\VulkanDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\VulkanDriver\SPMaterialVulkan.cpp">
+      <Filter>Source Files\Backend\VulkanDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\VulkanDriver\SPDraftVulkan.cpp">
+      <Filter>Source Files\Backend\VulkanDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\VulkanDriver\SPVulkanArtist.cpp">
+      <Filter>Source Files\Backend\VulkanDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\VulkanDriver\SPVulkanDrawingSkill.cpp">
+      <Filter>Source Files\Backend\VulkanDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\VulkanDriver\SPVulkanFunction.cpp">
+      <Filter>Source Files\Backend\VulkanDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\VulkanDriver\SPVulkanWindowsDriver.cpp">
+      <Filter>Source Files\Backend\VulkanDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\SPCamera.cpp">
+      <Filter>Source Files\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\SPLight.cpp">
+      <Filter>Source Files\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\SPSky.cpp">
+      <Filter>Source Files\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\VulkanDriver\SPBufferVulkan.cpp">
+      <Filter>Source Files\Backend\VulkanDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\SPTextureSampler.cpp">
+      <Filter>Source Files\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\VulkanDriver\SPSamplerVulkan.cpp">
+      <Filter>Source Files\Backend\VulkanDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\SPMaterial.cpp">
+      <Filter>Source Files\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\VulkanDriver\SPShaderVulkan.cpp">
+      <Filter>Source Files\Backend\VulkanDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\VulkanDriver\SPWorkFlowVulkan.cpp">
+      <Filter>Source Files\Backend\VulkanDriver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SPMangaStudio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory\SPDriverFactory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="SPMangaka.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="studio_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="studio_enum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\SPDrawingPad.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\SPGenko.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\SPSketch.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\SPDraft.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="SPNeMu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SPBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lounge\SPColoringAssistant.h">
+      <Filter>Source Files\Lounge</Filter>
+    </ClInclude>
+    <ClInclude Include="Lounge\SPInkingAssistant.h">
+      <Filter>Source Files\Lounge</Filter>
+    </ClInclude>
+    <ClInclude Include="Lounge\SPPostProcessingAssistant.h">
+      <Filter>Source Files\Lounge</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\VulkanDriver\SPDrawingPadVulkan.h">
+      <Filter>Source Files\Backend\VulkanDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\VulkanDriver\SPMaterialVulkan.h">
+      <Filter>Source Files\Backend\VulkanDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\VulkanDriver\SPDraftVulkan.h">
+      <Filter>Source Files\Backend\VulkanDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\VulkanDriver\SPVulkanArtist.h">
+      <Filter>Source Files\Backend\VulkanDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\VulkanDriver\SPVulkanDrawingSkill.h">
+      <Filter>Source Files\Backend\VulkanDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\VulkanDriver\SPVulkanFunction.h">
+      <Filter>Source Files\Backend\VulkanDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\VulkanDriver\SPVulkanWindowsDriver.h">
+      <Filter>Source Files\Backend\VulkanDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\VulkanDriver\vulkan_common.h">
+      <Filter>Source Files\Backend\VulkanDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\SPCamera.h">
+      <Filter>Source Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\SPLight.h">
+      <Filter>Source Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\SPSky.h">
+      <Filter>Source Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\SPBuffer.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\VulkanDriver\SPBufferVulkan.h">
+      <Filter>Source Files\Backend\VulkanDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\SPTextureSampler.h">
+      <Filter>Source Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\VulkanDriver\SPSamplerVulkan.h">
+      <Filter>Source Files\Backend\VulkanDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\SPStudioManager.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\SPMaterial.h">
+      <Filter>Source Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\VulkanDriver\SPShaderVulkan.h">
+      <Filter>Source Files\Backend\VulkanDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\VulkanDriver\SPWorkFlowVulkan.h">
+      <Filter>Source Files\Backend\VulkanDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\SPWorkFlow.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="MakeFile" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="VulkanAPI.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

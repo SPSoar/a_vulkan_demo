@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\vulkan_api">
+      <UniqueIdentifier>{70367d94-9d9b-4904-a648-cf2904a19f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\vulkan_api\vk_volk">
+      <UniqueIdentifier>{ceabd297-9463-4fe1-ae1e-d9f50c7f4c4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\vulkan_api\vk_tool">
+      <UniqueIdentifier>{9ab47456-c1cb-4595-be17-e78b702592de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\vulkan_api\vk_vma">
+      <UniqueIdentifier>{c396399a-5c82-404a-be25-a2feaa644c2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\vulkan_api\Buffer">
+      <UniqueIdentifier>{03ade369-2f20-4ffc-a79a-f1cb885810e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\vulkan_api\Command">
+      <UniqueIdentifier>{408566ff-88da-41f8-bdd8-eda6a16e6663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\vulkan_api\Descriptor">
+      <UniqueIdentifier>{6a134a31-465d-4314-ba0f-5d0524fb77a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\vulkan_api\Driver">
+      <UniqueIdentifier>{c4f4cca7-ecb6-42a4-a9b7-95180de3ced5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\vulkan_api\RenderComponents">
+      <UniqueIdentifier>{7836ccfb-d4c3-44b6-be03-d28b35908f53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\vulkan_api\RenderContext">
+      <UniqueIdentifier>{79597222-0f87-4906-81d7-dcb0bf27c21a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\vulkan_api\Resource">
+      <UniqueIdentifier>{151ddb5b-568b-4028-8afe-c91206540d03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\vulkan_api\ak_engine">
+      <UniqueIdentifier>{bcb2b0ba-7684-40c4-a0da-172f7f81904c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\vulkan_api\ak_pipeline">
+      <UniqueIdentifier>{0e8d2722-04e3-446b-a8d4-69f941db1965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\vulkan_api\ak_scene">
+      <UniqueIdentifier>{2fe85300-bd3b-4d7e-bc59-500990808ee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\vulkan_api\ak_render">
+      <UniqueIdentifier>{01304bde-5c6c-437f-a10e-8c9dd983c903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shaders">
+      <UniqueIdentifier>{d8a787fb-6308-4033-8789-4826d8cd855d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shaders\hdr">
+      <UniqueIdentifier>{4d293cc6-a579-4543-8e0b-9408957f4534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shaders\dynamic_uniform_buffers">
+      <UniqueIdentifier>{9137daae-b480-4910-8145-ed26e9424d19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\vulkan_api\Pipeline">
+      <UniqueIdentifier>{6b758831-f926-4a23-bd88-b6868c897c5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\Render\render_common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Render\SPRenderInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Render\SPRenderControlCenter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\vk_volk\volk.h">
+      <Filter>源文件\vulkan_api\vk_volk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\vk_vma\vk_mem_alloc.h">
+      <Filter>源文件\vulkan_api\vk_vma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Render\SPWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\vk_tool\glsl_compiler.h">
+      <Filter>源文件\vulkan_api\vk_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\vk_tool\spirv_reflection.h">
+      <Filter>源文件\vulkan_api\vk_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\Buffer\SPBuffer.h">
+      <Filter>源文件\vulkan_api\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\Buffer\SPBufferPool.h">
+      <Filter>源文件\vulkan_api\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\Command\SPCommandBuffer.h">
+      <Filter>源文件\vulkan_api\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\Command\SPCommandPool.h">
+      <Filter>源文件\vulkan_api\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\Command\SPFencePool.h">
+      <Filter>源文件\vulkan_api\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\Command\SPQueue.h">
+      <Filter>源文件\vulkan_api\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\Command\SPSemaphorePool.h">
+      <Filter>源文件\vulkan_api\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\Descriptor\SPDescriptorPool.h">
+      <Filter>源文件\vulkan_api\Descriptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\Descriptor\SPDescriptorSet.h">
+      <Filter>源文件\vulkan_api\Descriptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\Descriptor\SPDescriptorSetLayout.h">
+      <Filter>源文件\vulkan_api\Descriptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\Driver\SPDevice.h">
+      <Filter>源文件\vulkan_api\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\Driver\SPInstanceInfoManager.h">
+      <Filter>源文件\vulkan_api\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\Driver\SPPhysicalDevice.h">
+      <Filter>源文件\vulkan_api\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\Driver\SPVulkanInstance.h">
+      <Filter>源文件\vulkan_api\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\Resource\SPResourceBindingState.h">
+      <Filter>源文件\vulkan_api\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\Resource\SPResourceCache.h">
+      <Filter>源文件\vulkan_api\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\Resource\SPResourceRecord.h">
+      <Filter>源文件\vulkan_api\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\Resource\SPShaderSource.h">
+      <Filter>源文件\vulkan_api\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\RenderContext\SPImage.h">
+      <Filter>源文件\vulkan_api\RenderContext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\RenderContext\SPImageView.h">
+      <Filter>源文件\vulkan_api\RenderContext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\RenderContext\SPRenderFrame.h">
+      <Filter>源文件\vulkan_api\RenderContext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\RenderContext\SPRenderTarget.h">
+      <Filter>源文件\vulkan_api\RenderContext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\RenderContext\SPSwapchain.h">
+      <Filter>源文件\vulkan_api\RenderContext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\Pipeline\SPPipeline.h">
+      <Filter>源文件\vulkan_api\Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\Pipeline\SPPipelineLayout.h">
+      <Filter>源文件\vulkan_api\Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\Pipeline\SPPipelineState.h">
+      <Filter>源文件\vulkan_api\Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\RenderContext\SPFramebuffer.h">
+      <Filter>源文件\vulkan_api\RenderContext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\vulkan_common.h">
+      <Filter>源文件\vulkan_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\vulkan_common_cpp.h">
+      <Filter>源文件\vulkan_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\vulkan_common_tool.h">
+      <Filter>源文件\vulkan_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\vulkan_resource_caching.h">
+      <Filter>源文件\vulkan_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\Pipeline\SPRenderPass.h">
+      <Filter>源文件\vulkan_api\Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\ak_engine\SPEngine.h">
+      <Filter>源文件\vulkan_api\ak_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\ak_pipeline\SPRenderWorker.h">
+      <Filter>源文件\vulkan_api\ak_pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\ak_scene\SPScene.h">
+      <Filter>源文件\vulkan_api\ak_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\ak_render\SPRenderContext.h">
+      <Filter>源文件\vulkan_api\ak_render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\ak_render\SPStats.h">
+      <Filter>源文件\vulkan_api\ak_render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\vk_tool\gltf_loader.h">
+      <Filter>源文件\vulkan_api\vk_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\vk_tool\ctpl_stl.h">
+      <Filter>源文件\vulkan_api\vk_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\RenderContext\SPSampler.h">
+      <Filter>源文件\vulkan_api\RenderContext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\RenderComponents\SPComponent.h">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\RenderComponents\SPSAnimationSampler.h">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\RenderComponents\SPSCamera.h">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\RenderComponents\SPSImage.h">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\RenderComponents\SPSLight.h">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\RenderComponents\SPSMesh.h">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\RenderComponents\SPSNode.h">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\RenderComponents\SPSPBRMaterial.h">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\RenderComponents\SPSSampler.h">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\RenderComponents\SPSScene.h">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\RenderComponents\SPSScript.h">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\RenderComponents\SPSSubMesh.h">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\RenderComponents\SPSTexture.h">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\RenderComponents\SPSTransform.h">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\RenderComponents\SPComponentTool.h">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\RenderComponents\SPSHeightMap.h">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Render\vulkan_api\RenderComponents\SPSFrustum.h">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Render\SPRenderControlCenter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\SPRenderInterface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\vk_volk\volk.c">
+      <Filter>源文件\vulkan_api\vk_volk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\SPWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\vk_tool\glsl_compiler.cpp">
+      <Filter>源文件\vulkan_api\vk_tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\vk_tool\spirv_reflection.cpp">
+      <Filter>源文件\vulkan_api\vk_tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\Buffer\SPBuffer.cpp">
+      <Filter>源文件\vulkan_api\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\Buffer\SPBufferPool.cpp">
+      <Filter>源文件\vulkan_api\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\Command\SPCommandBuffer.cpp">
+      <Filter>源文件\vulkan_api\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\Command\SPCommandPool.cpp">
+      <Filter>源文件\vulkan_api\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\Command\SPFencePool.cpp">
+      <Filter>源文件\vulkan_api\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\Command\SPQueue.cpp">
+      <Filter>源文件\vulkan_api\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\Command\SPSemaphorePool.cpp">
+      <Filter>源文件\vulkan_api\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\Descriptor\SPDescriptorPool.cpp">
+      <Filter>源文件\vulkan_api\Descriptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\Descriptor\SPDescriptorSet.cpp">
+      <Filter>源文件\vulkan_api\Descriptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\Descriptor\SPDescriptorSetLayout.cpp">
+      <Filter>源文件\vulkan_api\Descriptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\Driver\SPDevice.cpp">
+      <Filter>源文件\vulkan_api\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\Driver\SPInstanceInfoManager.cpp">
+      <Filter>源文件\vulkan_api\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\Driver\SPPhysicalDevice.cpp">
+      <Filter>源文件\vulkan_api\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\Driver\SPVulkanInstance.cpp">
+      <Filter>源文件\vulkan_api\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\Resource\SPResourceBindingState.cpp">
+      <Filter>源文件\vulkan_api\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\Resource\SPResourceCache.cpp">
+      <Filter>源文件\vulkan_api\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\Resource\SPResourceRecord.cpp">
+      <Filter>源文件\vulkan_api\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\Resource\SPShaderSource.cpp">
+      <Filter>源文件\vulkan_api\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\RenderContext\SPImage.cpp">
+      <Filter>源文件\vulkan_api\RenderContext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\RenderContext\SPImageView.cpp">
+      <Filter>源文件\vulkan_api\RenderContext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\RenderContext\SPRenderFrame.cpp">
+      <Filter>源文件\vulkan_api\RenderContext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\RenderContext\SPRenderTarget.cpp">
+      <Filter>源文件\vulkan_api\RenderContext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\RenderContext\SPSwapchain.cpp">
+      <Filter>源文件\vulkan_api\RenderContext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\Pipeline\SPPipeline.cpp">
+      <Filter>源文件\vulkan_api\Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\Pipeline\SPPipelineLayout.cpp">
+      <Filter>源文件\vulkan_api\Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\Pipeline\SPPipelineState.cpp">
+      <Filter>源文件\vulkan_api\Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\RenderContext\SPFramebuffer.cpp">
+      <Filter>源文件\vulkan_api\RenderContext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\vulkan_common_tool.cpp">
+      <Filter>源文件\vulkan_api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\Pipeline\SPRenderPass.cpp">
+      <Filter>源文件\vulkan_api\Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\ak_engine\SPEngine.cpp">
+      <Filter>源文件\vulkan_api\ak_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\ak_pipeline\SPRenderWorker.cpp">
+      <Filter>源文件\vulkan_api\ak_pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\ak_scene\SPScene.cpp">
+      <Filter>源文件\vulkan_api\ak_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\ak_render\SPRenderContext.cpp">
+      <Filter>源文件\vulkan_api\ak_render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\ak_render\SPStats.cpp">
+      <Filter>源文件\vulkan_api\ak_render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\vk_tool\gltf_loader.cpp">
+      <Filter>源文件\vulkan_api\vk_tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\RenderContext\SPSampler.cpp">
+      <Filter>源文件\vulkan_api\RenderContext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\RenderComponents\SPComponent.cpp">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\RenderComponents\SPSAnimationSampler.cpp">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\RenderComponents\SPSCamera.cpp">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\RenderComponents\SPSImage.cpp">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\RenderComponents\SPSLight.cpp">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\RenderComponents\SPSMesh.cpp">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\RenderComponents\SPSNode.cpp">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\RenderComponents\SPSPBRMaterial.cpp">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\RenderComponents\SPSSampler.cpp">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\RenderComponents\SPSScene.cpp">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\RenderComponents\SPSScript.cpp">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\RenderComponents\SPSSubMesh.cpp">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\RenderComponents\SPSTexture.cpp">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\RenderComponents\SPSTransform.cpp">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\RenderComponents\SPComponentTool.cpp">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\RenderComponents\SPSHeightMap.cpp">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Render\vulkan_api\RenderComponents\SPSFrustum.cpp">
+      <Filter>源文件\vulkan_api\RenderComponents</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\shaders\hdr\bloom.frag">
+      <Filter>源文件\shaders\hdr</Filter>
+    </None>
+    <None Include="..\..\shaders\hdr\bloom.vert">
+      <Filter>源文件\shaders\hdr</Filter>
+    </None>
+    <None Include="..\..\shaders\hdr\composition.frag">
+      <Filter>源文件\shaders\hdr</Filter>
+    </None>
+    <None Include="..\..\shaders\hdr\composition.vert">
+      <Filter>源文件\shaders\hdr</Filter>
+    </None>
+    <None Include="..\..\shaders\hdr\gbuffer.frag">
+      <Filter>源文件\shaders\hdr</Filter>
+    </None>
+    <None Include="..\..\shaders\hdr\gbuffer.vert">
+      <Filter>源文件\shaders\hdr</Filter>
+    </None>
+    <None Include="..\..\shaders\dynamic_uniform_buffers\base.frag">
+      <Filter>源文件\shaders\dynamic_uniform_buffers</Filter>
+    </None>
+    <None Include="..\..\shaders\dynamic_uniform_buffers\base.vert">
+      <Filter>源文件\shaders\dynamic_uniform_buffers</Filter>
+    </None>
+    <None Include="..\..\shaders\imgui.frag">
+      <Filter>源文件\shaders</Filter>
+    </None>
+    <None Include="..\..\shaders\imgui.vert">
+      <Filter>源文件\shaders</Filter>
+    </None>
+    <None Include="..\..\shaders\triangle.frag">
+      <Filter>源文件\shaders</Filter>
+    </None>
+    <None Include="..\..\shaders\triangle.vert">
+      <Filter>源文件\shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
